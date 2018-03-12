@@ -32,8 +32,5 @@ header{
 }
 
 .right_header{
-  /* display:flex;
-  justify-content: flex-end; */
-  test change;
   background-color: yellow;
 }
