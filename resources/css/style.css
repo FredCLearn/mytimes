@@ -17,7 +17,6 @@
 
   .left_header{
     color: MediumAquamarine;
-    background-color: green;
     display: flex;
     align-items: center;
     flex-grow: 1;
@@ -32,8 +31,9 @@
     justify-content: flex-end;
   }
 
-  .right_header{
-    background-color: yellow;
+  .right_header span a{
+margin:10px;
+color: black;
   }
 
 
@@ -52,7 +52,9 @@
 .insidecol{
   display: flex;
   flex-direction: column;
-  height:250px;
+  /* height:250px; */
+  width:300px;
+
 }
 
 .imagetext{
@@ -109,9 +111,8 @@ height:300px;
 /* Second Column */
 
 .column2{
-  /* flex-direction: column; */
+  width: 300px;
 
-  background-color: pink;
 }
 
 .cats{
@@ -124,5 +125,74 @@ background-repeat: no-repeat;
 .column3{
   flex-direction: column;
   width: 240px;
-  background-color: green;
+  margin: 10px;
+}
+
+.bitetext{
+  display: block;
+
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid;
+  margin:10px;
+}
+
+.newbites{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.biteback{
+    background-color: WhiteSmoke;
+}
+
+
+/* Footer */
+
+.footcontain{
+/* background-color: pink; */
+height: 500px;
+display: flex;
+justify-content: center;
+}
+
+.footer1{
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  height:325px;
+  width: 100%;
+}
+
+.topline{
+  display:flex;
+  flex-direction: row;
+}
+
+.secondl{
+margin-top: 10px;
+}
+
+.footmytimes{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  margin: 10px;
+  padding: 5px 0px;
+  padding-right: 10px;
+}
+
+.footer1 a{
+  margin: 10px;
+  color: black;
 }
